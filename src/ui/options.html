@@ -34,6 +34,10 @@
       </form>
       <form id="options" style="display:none">
         <legend>Filter options</legend>
+          <div>
+            <label class="block-label" for="search_filter">Search:</label>
+            <input id="search_filter" type="text" autocomplete="off" />
+          </div>
         <fieldset>
           <div class="tabset" id="tabbed-filters-parent">
             <div class="tab-menu" id="tabbed-filters-menu">
@@ -107,6 +111,11 @@
 
             </div>
         </fieldset>
+        <!-- Add the search box here -->
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Search filters..." />
+          <button type="button" id="search-button">Search</button>
+        </div>
         <legend>Other options</legend>
         <fieldset>
           <div>
